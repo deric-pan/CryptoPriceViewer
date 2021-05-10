@@ -1,0 +1,653 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoinList"
+- "CoinList_Previews"
+- "CoinListViewModel"
+- "CoinViewModel"
+provides-nominal:
+- "17CryptoPriceViewer8CoinListV"
+- "17CryptoPriceViewer17CoinList_PreviewsV"
+- "17CryptoPriceViewer17CoinListViewModelC"
+- "17CryptoPriceViewer13CoinViewModelV"
+provides-member:
+- ["17CryptoPriceViewer8CoinListV", ""]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", ""]
+- ["17CryptoPriceViewer17CoinListViewModelC", ""]
+- ["17CryptoPriceViewer13CoinViewModelV", ""]
+provides-dynamic-lookup:
+- "$coinViewModels"
+- "_coinViewModels"
+- "cancellable"
+- "coinViewModels"
+- "cryptoService"
+- "fetchCoins"
+depends-top-level:
+- !private "+"
+- "=="
+- "AnyCancellable"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Coin"
+- "CoinList"
+- "CoinListViewModel"
+- "CoinList_Previews"
+- "CoinViewModel"
+- "CryptoService"
+- !private "Double"
+- "Hashable"
+- "List"
+- !private "NSNumber"
+- !private "NavigationView"
+- !private "NumberFormatter"
+- "ObservableObject"
+- "ObservedObject"
+- "PreviewProvider"
+- "Published"
+- "String"
+- !private "StringLiteralType"
+- "Text"
+- "View"
+- !private "cancellable"
+- !private "coin"
+- !private "cryptoService"
+- !private "formattedPrice"
+- !private "name"
+- "print"
+- "viewModel"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["7SwiftUI10AnimatableP", ""]
+- !private ["7Combine12AnyPublisherV", "sink"]
+- ["Sa", "init"]
+- !private ["Sa", "map"]
+- ["SK", ""]
+- ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SB", "init"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "map"]
+- !private ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "numberStyle"]
+- !private ["s7CVarArgP", "string"]
+- ["17CryptoPriceViewer4CoinV", ""]
+- !private ["17CryptoPriceViewer4CoinV", "name"]
+- !private ["17CryptoPriceViewer4CoinV", "price"]
+- !private ["17CryptoPriceViewer8CoinListV", "$viewModel"]
+- ["17CryptoPriceViewer8CoinListV", "Body"]
+- ["17CryptoPriceViewer8CoinListV", "CoinListViewModel"]
+- ["17CryptoPriceViewer8CoinListV", "Default_Body"]
+- !private ["17CryptoPriceViewer8CoinListV", "List"]
+- !private ["17CryptoPriceViewer8CoinListV", "NavigationView"]
+- ["17CryptoPriceViewer8CoinListV", "ObservedObject"]
+- !private ["17CryptoPriceViewer8CoinListV", "Text"]
+- ["17CryptoPriceViewer8CoinListV", "View"]
+- ["17CryptoPriceViewer8CoinListV", ""]
+- ["17CryptoPriceViewer8CoinListV", "_Default_Body"]
+- ["17CryptoPriceViewer8CoinListV", "_makeView"]
+- ["17CryptoPriceViewer8CoinListV", "_makeViewList"]
+- ["17CryptoPriceViewer8CoinListV", "_viewListCount"]
+- !private ["17CryptoPriceViewer8CoinListV", "_viewModel"]
+- ["17CryptoPriceViewer8CoinListV", "body"]
+- ["17CryptoPriceViewer8CoinListV", "init"]
+- !private ["17CryptoPriceViewer8CoinListV", "viewModel"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "$coinViewModels"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "AnyCancellable"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "CoinViewModel"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "CryptoService"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "Default_ObjectWillChangePublisher"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "ObjectWillChangePublisher"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "Published"]
+- ["17CryptoPriceViewer17CoinListViewModelC", ""]
+- ["17CryptoPriceViewer17CoinListViewModelC", "_Default_ObjectWillChangePublisher"]
+- !private ["17CryptoPriceViewer17CoinListViewModelC", "_coinViewModels"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "cancellable"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "coinViewModels"]
+- !private ["17CryptoPriceViewer17CoinListViewModelC", "cryptoService"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "deinit"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "fetchCoins"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "init"]
+- ["17CryptoPriceViewer17CoinListViewModelC", "objectWillChange"]
+- !private ["17CryptoPriceViewer17CoinListViewModelC", "print"]
+- !private ["17CryptoPriceViewer17CoinList_PreviewsV", "CoinList"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "Default_Previews"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "Previews"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "View"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", ""]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "_Default_Previews"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "_platform"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "_previews"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "init"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "platform"]
+- ["17CryptoPriceViewer17CoinList_PreviewsV", "previews"]
+- ["17CryptoPriceViewer13CoinViewModelV", "=="]
+- ["17CryptoPriceViewer13CoinViewModelV", "Coin"]
+- !private ["17CryptoPriceViewer13CoinViewModelV", "Double"]
+- !private ["17CryptoPriceViewer13CoinViewModelV", "NSNumber"]
+- !private ["17CryptoPriceViewer13CoinViewModelV", "NumberFormatter"]
+- ["17CryptoPriceViewer13CoinViewModelV", "String"]
+- ["17CryptoPriceViewer13CoinViewModelV", ""]
+- ["17CryptoPriceViewer13CoinViewModelV", "__derived_struct_equals"]
+- ["17CryptoPriceViewer13CoinViewModelV", "_rawHashValue"]
+- !private ["17CryptoPriceViewer13CoinViewModelV", "coin"]
+- ["17CryptoPriceViewer13CoinViewModelV", "displayText"]
+- ["17CryptoPriceViewer13CoinViewModelV", "formattedPrice"]
+- ["17CryptoPriceViewer13CoinViewModelV", "hash"]
+- ["17CryptoPriceViewer13CoinViewModelV", "hashValue"]
+- ["17CryptoPriceViewer13CoinViewModelV", "init"]
+- ["17CryptoPriceViewer13CoinViewModelV", "name"]
+- ["Sl", ""]
+- ["Sl", "init"]
+- !private ["Sl", "map"]
+- ["SL", ""]
+- !private ["SL", "init"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["17CryptoPriceViewer0A4DataV", "coins"]
+- !private ["17CryptoPriceViewer0A13DataContainerV", "data"]
+- !private ["17CryptoPriceViewer0A7ServiceC", "fetchCoins"]
+- ["17CryptoPriceViewer0A7ServiceC", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "numberStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "sink"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "numberStyle"]
+- !private ["s23CustomStringConvertibleP", "sink"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "coins"]
+- !private ["Se", "data"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "name"]
+- !private ["Se", "price"]
+- !private ["Sd", "init"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "Double"]
+- !private ["SQ", "NSNumber"]
+- !private ["SQ", "NumberFormatter"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "coin"]
+- !private ["SQ", "currency"]
+- !private ["SQ", "displayText"]
+- !private ["SQ", "formattedPrice"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "name"]
+- !private ["SQ", "numberStyle"]
+- !private ["SQ", "price"]
+- !private ["SQ", "string"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- ["So11NSFormatterC", ""]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "numberStyle"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "stringFromNumber"]
+- ["SH", "=="]
+- !private ["SH", "Double"]
+- !private ["SH", "NSNumber"]
+- !private ["SH", "NumberFormatter"]
+- ["SH", ""]
+- !private ["SH", "__derived_struct_equals"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "coin"]
+- !private ["SH", "currency"]
+- !private ["SH", "displayText"]
+- !private ["SH", "formattedPrice"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "name"]
+- !private ["SH", "numberStyle"]
+- !private ["SH", "price"]
+- !private ["SH", "string"]
+- !private ["s6HasherV", "combine"]
+- ["s7KeyPathC", ""]
+- !private ["7SwiftUI4ListV", "init"]
+- !private ["7SwiftUI4ListV", "onAppear"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["SM", ""]
+- ["SM", "init"]
+- !private ["SM", "map"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "numberStyle"]
+- !private ["So8NSCodingP", "numberWithBool"]
+- !private ["So8NSCodingP", "numberWithChar"]
+- !private ["So8NSCodingP", "numberWithDouble"]
+- !private ["So8NSCodingP", "numberWithFloat"]
+- !private ["So8NSCodingP", "numberWithInt"]
+- !private ["So8NSCodingP", "numberWithInteger"]
+- !private ["So8NSCodingP", "numberWithLong"]
+- !private ["So8NSCodingP", "numberWithLongLong"]
+- !private ["So8NSCodingP", "numberWithShort"]
+- !private ["So8NSCodingP", "numberWithUnsignedChar"]
+- !private ["So8NSCodingP", "numberWithUnsignedInt"]
+- !private ["So8NSCodingP", "numberWithUnsignedInteger"]
+- !private ["So8NSCodingP", "numberWithUnsignedLong"]
+- !private ["So8NSCodingP", "numberWithUnsignedLongLong"]
+- !private ["So8NSCodingP", "numberWithUnsignedShort"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "stringFromNumber"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "numberStyle"]
+- !private ["So9NSCopyingP", "numberWithBool"]
+- !private ["So9NSCopyingP", "numberWithChar"]
+- !private ["So9NSCopyingP", "numberWithDouble"]
+- !private ["So9NSCopyingP", "numberWithFloat"]
+- !private ["So9NSCopyingP", "numberWithInt"]
+- !private ["So9NSCopyingP", "numberWithInteger"]
+- !private ["So9NSCopyingP", "numberWithLong"]
+- !private ["So9NSCopyingP", "numberWithLongLong"]
+- !private ["So9NSCopyingP", "numberWithShort"]
+- !private ["So9NSCopyingP", "numberWithUnsignedChar"]
+- !private ["So9NSCopyingP", "numberWithUnsignedInt"]
+- !private ["So9NSCopyingP", "numberWithUnsignedInteger"]
+- !private ["So9NSCopyingP", "numberWithUnsignedLong"]
+- !private ["So9NSCopyingP", "numberWithUnsignedLongLong"]
+- !private ["So9NSCopyingP", "numberWithUnsignedShort"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "stringFromNumber"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "numberStyle"]
+- !private ["So8NSObjectC", "numberWithBool"]
+- !private ["So8NSObjectC", "numberWithChar"]
+- !private ["So8NSObjectC", "numberWithDouble"]
+- !private ["So8NSObjectC", "numberWithFloat"]
+- !private ["So8NSObjectC", "numberWithInt"]
+- !private ["So8NSObjectC", "numberWithInteger"]
+- !private ["So8NSObjectC", "numberWithLong"]
+- !private ["So8NSObjectC", "numberWithLongLong"]
+- !private ["So8NSObjectC", "numberWithShort"]
+- !private ["So8NSObjectC", "numberWithUnsignedChar"]
+- !private ["So8NSObjectC", "numberWithUnsignedInt"]
+- !private ["So8NSObjectC", "numberWithUnsignedInteger"]
+- !private ["So8NSObjectC", "numberWithUnsignedLong"]
+- !private ["So8NSObjectC", "numberWithUnsignedLongLong"]
+- !private ["So8NSObjectC", "numberWithUnsignedShort"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringForObjectValue"]
+- !private ["So8NSObjectC", "stringFromNumber"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectC", "valueWithBytes"]
+- !private ["So8NSObjectC", "valueWithCATransform3D"]
+- !private ["So8NSObjectC", "valueWithCGAffineTransform"]
+- !private ["So8NSObjectC", "valueWithCGPoint"]
+- !private ["So8NSObjectC", "valueWithCGRect"]
+- !private ["So8NSObjectC", "valueWithCGSize"]
+- !private ["So8NSObjectC", "valueWithCGVector"]
+- !private ["So8NSObjectC", "valueWithDirectionalEdgeInsets"]
+- !private ["So8NSObjectC", "valueWithNonretainedObject"]
+- !private ["So8NSObjectC", "valueWithPointer"]
+- !private ["So8NSObjectC", "valueWithRange"]
+- !private ["So8NSObjectC", "valueWithUIEdgeInsets"]
+- !private ["So8NSObjectC", "valueWithUIOffset"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "numberStyle"]
+- !private ["So8NSObjectP", "numberWithBool"]
+- !private ["So8NSObjectP", "numberWithChar"]
+- !private ["So8NSObjectP", "numberWithDouble"]
+- !private ["So8NSObjectP", "numberWithFloat"]
+- !private ["So8NSObjectP", "numberWithInt"]
+- !private ["So8NSObjectP", "numberWithInteger"]
+- !private ["So8NSObjectP", "numberWithLong"]
+- !private ["So8NSObjectP", "numberWithLongLong"]
+- !private ["So8NSObjectP", "numberWithShort"]
+- !private ["So8NSObjectP", "numberWithUnsignedChar"]
+- !private ["So8NSObjectP", "numberWithUnsignedInt"]
+- !private ["So8NSObjectP", "numberWithUnsignedInteger"]
+- !private ["So8NSObjectP", "numberWithUnsignedLong"]
+- !private ["So8NSObjectP", "numberWithUnsignedLongLong"]
+- !private ["So8NSObjectP", "numberWithUnsignedShort"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringForObjectValue"]
+- !private ["So8NSObjectP", "stringFromNumber"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "valueWithBytes"]
+- !private ["So8NSObjectP", "valueWithCATransform3D"]
+- !private ["So8NSObjectP", "valueWithCGAffineTransform"]
+- !private ["So8NSObjectP", "valueWithCGPoint"]
+- !private ["So8NSObjectP", "valueWithCGRect"]
+- !private ["So8NSObjectP", "valueWithCGSize"]
+- !private ["So8NSObjectP", "valueWithCGVector"]
+- !private ["So8NSObjectP", "valueWithDirectionalEdgeInsets"]
+- !private ["So8NSObjectP", "valueWithNonretainedObject"]
+- !private ["So8NSObjectP", "valueWithPointer"]
+- !private ["So8NSObjectP", "valueWithRange"]
+- !private ["So8NSObjectP", "valueWithUIEdgeInsets"]
+- !private ["So8NSObjectP", "valueWithUIOffset"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "numberWithBool"]
+- !private ["So14NSSecureCodingP", "numberWithChar"]
+- !private ["So14NSSecureCodingP", "numberWithDouble"]
+- !private ["So14NSSecureCodingP", "numberWithFloat"]
+- !private ["So14NSSecureCodingP", "numberWithInt"]
+- !private ["So14NSSecureCodingP", "numberWithInteger"]
+- !private ["So14NSSecureCodingP", "numberWithLong"]
+- !private ["So14NSSecureCodingP", "numberWithLongLong"]
+- !private ["So14NSSecureCodingP", "numberWithShort"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedChar"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedInt"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedInteger"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedLong"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedLongLong"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedShort"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "init"]
+- !private ["So7NSValueC", "numberWithBool"]
+- !private ["So7NSValueC", "numberWithChar"]
+- !private ["So7NSValueC", "numberWithDouble"]
+- !private ["So7NSValueC", "numberWithFloat"]
+- !private ["So7NSValueC", "numberWithInt"]
+- !private ["So7NSValueC", "numberWithInteger"]
+- !private ["So7NSValueC", "numberWithLong"]
+- !private ["So7NSValueC", "numberWithLongLong"]
+- !private ["So7NSValueC", "numberWithShort"]
+- !private ["So7NSValueC", "numberWithUnsignedChar"]
+- !private ["So7NSValueC", "numberWithUnsignedInt"]
+- !private ["So7NSValueC", "numberWithUnsignedInteger"]
+- !private ["So7NSValueC", "numberWithUnsignedLong"]
+- !private ["So7NSValueC", "numberWithUnsignedLongLong"]
+- !private ["So7NSValueC", "numberWithUnsignedShort"]
+- !private ["7SwiftUI14NavigationViewV", "init"]
+- !private ["So17NSNumberFormatterC", "init"]
+- !private ["So17NSNumberFormatterC", "numberStyle"]
+- !private ["So17NSNumberFormatterC", "string"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["7Combine16ObservableObjectP", "CoinViewModel"]
+- ["7Combine16ObservableObjectP", "CryptoService"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_coinViewModels"]
+- !private ["7Combine16ObservableObjectP", "cancellable"]
+- !private ["7Combine16ObservableObjectP", "coinViewModels"]
+- !private ["7Combine16ObservableObjectP", "cryptoService"]
+- !private ["7Combine16ObservableObjectP", "fetchCoins"]
+- ["7Combine16ObservableObjectP", "init"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- ["7SwiftUI14ObservedObjectV", "init"]
+- ["7SwiftUI14ObservedObjectV", "projectedValue"]
+- ["7SwiftUI14ObservedObjectV", "subscript"]
+- ["7SwiftUI14ObservedObjectV", "wrappedValue"]
+- !private ["7SwiftUI15PreviewProviderP", "CoinList"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "projectedValue"]
+- ["7Combine9PublishedV", "subscript"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["7Combine9PublisherP", "sink"]
+- ["Sk", ""]
+- ["Sk", "init"]
+- !private ["Sk", "map"]
+- ["Sm", ""]
+- ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["SY", "currency"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", ""]
+- ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["So22NSNumberFormatterStyleV", "currency"]
+- !private ["7SwiftUI4TextV", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["7SwiftUI16VectorArithmeticP", "init"]
+- ["7SwiftUI4ViewP", "Body"]
+- ["7SwiftUI4ViewP", "CoinListViewModel"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- !private ["7SwiftUI4ViewP", "List"]
+- !private ["7SwiftUI4ViewP", "NavigationView"]
+- ["7SwiftUI4ViewP", "ObservedObject"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "navigationBarTitle"]
+- !private ["7SwiftUI4ViewP", "onAppear"]
+- !private ["7SwiftUI4ViewP", "viewModel"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["7SwiftUI16_PreviewProviderP", "CoinList"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["So13CKRecordValueP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "7SwiftUI10AnimatableP"
+- !private "7Combine12AnyPublisherV"
+- "Sa"
+- "SK"
+- !private "SB"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "17CryptoPriceViewer4CoinV"
+- "17CryptoPriceViewer8CoinListV"
+- "17CryptoPriceViewer17CoinListViewModelC"
+- "17CryptoPriceViewer17CoinList_PreviewsV"
+- "17CryptoPriceViewer13CoinViewModelV"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- !private "17CryptoPriceViewer0A4DataV"
+- !private "17CryptoPriceViewer0A13DataContainerV"
+- "17CryptoPriceViewer0A7ServiceC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s34CustomPlaygroundDisplayConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "Sd"
+- "7SwiftUI15DynamicPropertyP"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "So11NSFormatterC"
+- "SH"
+- !private "s6HasherV"
+- "s7KeyPathC"
+- !private "7SwiftUI4ListV"
+- "s25LosslessStringConvertibleP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So7NSValueC"
+- !private "7SwiftUI14NavigationViewV"
+- !private "So17NSNumberFormatterC"
+- !private "Sj"
+- "7Combine16ObservableObjectP"
+- "7SwiftUI14ObservedObjectV"
+- "7SwiftUI15PreviewProviderP"
+- "7Combine9PublishedV"
+- !private "7Combine9PublisherP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "So22NSNumberFormatterStyleV"
+- !private "7SwiftUI4TextV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So18UIFocusEnvironmentP"
+- !private "7SwiftUI16VectorArithmeticP"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5ca806538ee8c41e6eb38014ac86390d"

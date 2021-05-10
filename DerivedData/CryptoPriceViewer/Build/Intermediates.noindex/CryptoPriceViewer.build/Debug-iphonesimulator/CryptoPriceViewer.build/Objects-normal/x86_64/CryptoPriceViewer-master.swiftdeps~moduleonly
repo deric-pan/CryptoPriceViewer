@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "f713ed9ac02f23c71ff496d588d5f55c"
+build_time: [1620690785, 326628000]
+inputs:
+  "/Users/Deric/Desktop/projects/CryptoPriceViewer/CryptoPriceViewer/CoinList.swift": [1605116973, 231942028]
+  "/Users/Deric/Desktop/projects/CryptoPriceViewer/CryptoPriceViewer/CryptoService.swift": [1605116291, 962854677]
+  "/Users/Deric/Desktop/projects/CryptoPriceViewer/CryptoPriceViewer/CryptoPriceViewerApp.swift": [1605115732, 913647350]

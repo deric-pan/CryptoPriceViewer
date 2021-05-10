@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>EFF1F42D-7EE2-4635-9223-5076196B08CD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EFF1F42D-7EE2-4635-9223-5076196B08CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CryptoPriceViewer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CryptoPriceViewer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run CryptoPriceViewer</string>
+			<key>timeStartedRecording</key>
+			<real>626809471.00159597</real>
+			<key>timeStoppedRecording</key>
+			<real>626809528.433074</real>
+			<key>title</key>
+			<string>Run CryptoPriceViewer</string>
+			<key>uniqueIdentifier</key>
+			<string>EFF1F42D-7EE2-4635-9223-5076196B08CD</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
